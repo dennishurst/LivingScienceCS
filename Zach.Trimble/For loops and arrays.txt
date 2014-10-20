@@ -1,0 +1,5 @@
+for loops and arrays.html
+var names = ["london", "Manchester", "essexs", "Ellie", "Joel"]
+for (var i = 0; i < names.length; i++) {
+    console.log("I know someone called " + names[i]);
+}
