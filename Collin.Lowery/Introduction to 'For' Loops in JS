@@ -1,0 +1,5 @@
+var names = ["Collin","Evan", "Solomon", "Matt", "Matt"]
+
+	for (var i = 0; i < names.length; i++) {
+    	console.log("I know someone called " + names[i]);
+}
