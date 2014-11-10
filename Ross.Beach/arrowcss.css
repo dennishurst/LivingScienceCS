@@ -1,0 +1,32 @@
+﻿#gameSpan {
+    width:750px;
+}
+#gameRange {
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-right: 20px;
+    border: 5px groove #40e0d0;
+    background: #66b266;
+    position: relative;
+}
+#gameStats {
+    width: 200px;
+    height: 500px;
+    float: left;
+    border: 5px groove #40e0d0;
+    background: #66b266;
+    font-family: Cambria;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+#gameCurrrentInfo {
+    margin:5px;
+	height:120px;
+	margin-top:15px;
+}
+#gameRules {
+    margin:5px;	
+    font-size:12pt;
+}
