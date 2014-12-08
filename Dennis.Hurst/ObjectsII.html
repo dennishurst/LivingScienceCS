@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+function Animal(name, numLegs) {
+    this.name = name;
+    this.numLegs = numLegs;
+}
+Animal.prototype.sayName = function() {
+    console.log("Hi my name is " + this.name);
+    return " I am still alive ";
+};
+
+var animal1 = new Animal("dog", 4);
+var animal2 = new Animal("bird", 6);
+
+console.log("1 is a " + animal1.name);
+console.log("2 is a " + animal2.name);
+
+console.log("1 says " + animal1.sayName());
+animal2.sayName();
+
+// create a Penguin constructor here
+function Penguin(name, numLegs){
+    this.name = name;
+    this.numLegs = numLegs;
+}
+
+// create a sayName method for Penguins here
+Penguin.prototype.sayName = function() {
+    console.log("Hi my name is " + this.name);
+}
+
+// our test code
+var theCaptain = new Penguin("Captain Cook", 2);
+theCaptain.sayName();
+
+
+</script>
+</body>
+</html>

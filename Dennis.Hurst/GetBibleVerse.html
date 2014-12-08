@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>hello</title>
+</head>
+
+<body>
+	<script src="./script/jquery-1.11.1.min.js"></script>
+
+
+	<div id="myVerse">Your verse should show up here.</div>
+
+ 
+<script>
+
+//
+console.log("calling");
+$.ajax({
+	url: "http://labs.bible.org/api/?passage=John%203:16&type=json",
+	dataType: "jsonp",
+	type: "PUT",
+	// work with the response
+	success: function( response ) {
+		console.log("were back");
+		console.log( response ); // server response
+		$("#myVerse").html(response[0].text);
+	}
+});
+
+
+	//
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
