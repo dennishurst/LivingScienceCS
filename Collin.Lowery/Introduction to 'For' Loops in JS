@@ -1,12 +1,5 @@
-<html>
-	<head>
-		<scrpit src="arrays.js"></script>
-	</head>
-	<body>
-		<div id="myDiv"></div>
+var names = ["Collin","Evan", "Solomon", "Matt", "Matt"]
 
-		<script>
-			drawsomething();
-		</script>		
-	</body>
-</html>
+	for (var i = 0; i < names.length; i++) {
+    	console.log("I know someone called " + names[i]);
+}
