@@ -1,0 +1,6 @@
+You are missing:
+
+While loop assignment
+Objects I
+Objects II
+jQuery

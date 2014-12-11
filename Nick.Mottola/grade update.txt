@@ -1,0 +1,9 @@
+Nick,
+
+You are missing:
+While loops
+Objects I
+Objects II
+jQuery
+
+Let me know if I can help catch you up.

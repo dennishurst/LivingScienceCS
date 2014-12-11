@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Slide Panel</title>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"></link>
+    </head>
+    <body>
+        <div class="panel">
+        <br />
+        <br />
+        <p>Now you see me!</p>
+        </div>
+        <p class="slide"><div class="pull-me">Slide Up/Down</div></p>
+        <p>
+            <input type='button' onClick="clickMe();" value='hello' />
+        </p>
+        <form action="">
+            <table width="100%">
+                <tr>
+                    <td>Start from:</td>
+                    <td><input id='countFrom' type="text" value="0"/>
+                </tr>
+                <tr>
+                    <td>Count to:</td>
+                    <td><input id='countTo' type="text" value="10"/>
+                </tr>
+
+                <tr>
+                    <td><input type='button' onClick="goCount();" value='Watch me count!!!'/></td>
+                    <td><label id='watchMe' value='I will count here.'/></td>
+                </tr>
+                <tr>
+                    <td colspan=2><div id='showArray' ></div></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
