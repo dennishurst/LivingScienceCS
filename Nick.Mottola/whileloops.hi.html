@@ -1,0 +1,17 @@
+var slaying = true;
+var damageThisRound = Math.floor(Math.random() * 5 + 1);
+var dragonHP = 30;
+
+while(slaying) {
+if(dragonHP > 0) {
+console.log("Good! You have taken " + damageThisRound + " from the Dragon HP.");
+dragonHP -= damageThisRound;
+if(dragonHP <= 0) {
+console.log("It's amazing! You killed the Dragon!");
+slaying = false;
+} else {}
+} else {
+console.log("I'm sorry, the Dragon defeated you.");
+}
+
+}
