@@ -1,7 +1,8 @@
 //
 // This class is UGLY, fix it
 //
-var mySlider = {isSliderDown : false,SliderColor : "red"};
+var mySlider = {
+    isSliderDown : false,SliderColor : "red"};
 
 
 //
