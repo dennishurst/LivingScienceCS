@@ -2,15 +2,22 @@
 // This class is UGLY, fix it
 //
 var mySlider = {
-    isSliderDown : false,SliderColor : "red"};
+    isSliderDown : false;
+    SliderColor : "red"
+};
 
 
 //
 // This function is UGLY, fix it
 //
-var clickMe = function(){if (mySlider.isSliderDown)
-    {alert('the slider is down');}
-    else {alert('the slider is up');}}
+var clickMe = function(){
+    if (mySlider.isSliderDown){
+        alert('the slider is down');
+    }
+    else {
+        alert('the slider is up');
+    }
+}
 
 
 //
@@ -29,8 +36,12 @@ var goCount = function(){
         return;
     }
 
-    var scountTo = $('#countTo').val();  icountTo = parseInt(scountTo);
-    if (isNaN(icountTo)){alert('HEY!, Start To is not a number!  FIX IT, FIX IT NOW!!!!');return;}
+    var scountTo = $('#countTo').val();
+    icountTo = parseInt(scountTo);
+    if (isNaN(icountTo))
+        {alert('HEY!, Start To is not a number!  FIX IT, FIX IT NOW!!!!');
+        return;
+    }
     var arrayCount = ["Start<br/>"];        //Create the array and put the first element in it.
     
     //loop from icountFrom to icountTo and add an array element every time
@@ -42,7 +53,7 @@ var goCount = function(){
         'Now the array is complete<br/>'
     );  //Add the "were done" note to the array
 
-    $('#showArray').html(arrayCount.toString());        //update the table with a value.
+    $('#showArray').html(arrayCount.toString(2));        //update the table with a value.
 }
 
 
