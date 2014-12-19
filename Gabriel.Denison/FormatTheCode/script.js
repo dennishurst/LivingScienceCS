@@ -1,20 +1,31 @@
 //
 // This class is UGLY, fix it
+// Try one at fixing
 //
-var mySlider = {isSliderDown : false,SliderColor : "red"};
+var mySlider = {
+    isSliderDown : false,
+    SliderColor : "red"
+};
 
 
 //
 // This function is UGLY, fix it
+// Try one at fixing
 //
-var clickMe = function(){if (mySlider.isSliderDown)
-    {alert('the slider is down');}
-    else {alert('the slider is up');}}
+var clickMe = function(){
+    if (mySlider.isSliderDown){
+        alert('the slider is down');
+    }
+    else{
+        alert('the slider is up');
+    }
+}
 
 
 //
 // This function is somewhat UGLY, fix it
 // Note that some parts are OK, others are UGLY, just fix the sections
+// Try one at fixing
 // that break good formatting rules.
 //
 var goCount = function(){
@@ -29,7 +40,9 @@ var goCount = function(){
     }
 
     var scountTo = $('#countTo').val();  icountTo = parseInt(scountTo);
-    if (isNaN(icountTo)){alert('HEY!, Start To is not a number!  FIX IT, FIX IT NOW!!!!');return;}
+    if (isNaN(icountTo)){
+        alert('HEY!, Start To is not a number!  FIX IT, FIX IT NOW!!!!');return;
+    }
     var arrayCount = ["Start<br/>"];        //Create the array and put the first element in it.
     
     //loop from icountFrom to icountTo and add an array element every time
