@@ -42,11 +42,10 @@ var goCount = function(){
 
     var scountTo = $('#countTo').val();  
     icountTo = parseInt(scountTo);
-    if (isNaN(icountTo))
-        {
+    if (isNaN(icountTo)){
             alert('HEY!, Start To is not a number!  FIX IT, FIX IT NOW!!!!');
-    return;
-        }
+        return;
+    }
     var arrayCount = ["Start<br/>"];        //Create the array and put the first element in it.
     
     //loop from icountFrom to icountTo and add an array element every time

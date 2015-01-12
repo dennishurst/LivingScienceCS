@@ -1,3 +1,14 @@
+/*
+
+Justin,
+This was close, I do a have a few comments
+1) the changes should have been made in script.js, not a seperate file.
+2) You now have duplicate code which won't compile.
+
+I'm giving you 90% credit and you can work through the issues in the new year.
+
+*/
+
 //
 // This class is UGLY, fix it
 //
