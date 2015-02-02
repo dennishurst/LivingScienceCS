@@ -1,0 +1,21 @@
+Test:
+
+1. Create a directory under your GitHub directory called Bootstrap
+
+2. Copy the contents of the LivingScienceCS\BootStrap to the BootStrap folder you created in step 1
+
+3. From a Command / Terminal windows change (CD) to your Bootstrap folder.  
+
+4. Run: node static_server.js
+
+5. In a browser, navigate to http://127.0.0.1:8888
+
+6. Stop the static_server.js program (Ctrl-C)
+
+7. Edit one of the HTML files in some way to show you did it.  Like put your name in a  header.
+
+8. Restart the web server from your command prompt. (Again, node static_server.js) 
+
+9. Navigate to the web site in you browser.
+
+10. Let me know you are done, and show me.
