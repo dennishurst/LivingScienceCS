@@ -1,0 +1,66 @@
+<html>
+<div class="row">
+            <div class="col-md-8">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Character</th>
+                            <th>Direction</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Joe</td>
+                            <td>(Enters from left)</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td>Mary</td>
+                            <td>(Standing center stage)</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Jim</td>
+                            <td>(center stage)</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-4">
+
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Next Scene</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Joe (from left)</td></tr>
+                        <tr><td>Mary (from right)</td></tr>
+                        <tr><td>Jim (from center)</td></tr>
+                        <tr><td>Tom (walks on)</td></tr>
+                        <tr><td>Mike (from left)</td></tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+</html>
