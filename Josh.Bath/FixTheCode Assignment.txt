@@ -1,0 +1,130 @@
+
+
+Class,
+
+ [Please read all of this and ask any questions you need to]
+
+Update on your grades:
+
+In your GitHub folder I have added a file called “grade update.txt”.  This is a text file that lets you know what you are still missing for this Fall’s assignments.  If you have completed them please make sure you:
+
+ 
+
+1.            Copy the text from the last page of Codecademy into a .HTML file.
+
+2.            Save the .HTML file with a name like “ObjectsII.html” in your GitHub folder.
+
+3.            Let me know when I need to check it.
+
+ 
+
+If you have questions about assignments that you still owe me please let me know ASAP!!!! You don’t want to work over the Christmas break.
+
+ 
+
+FINAL EXAM
+
+Now for the final exam, as we discussed in class the test is to fix the formatting of a javascript file (script.js) that is working but is formatted badly (aka UGLY).  In each of your GitHub folders I have created a folder called “FormatTheCode”.  You need to edit the script.js file in YOUR FormatTheCode folder and correct the formatting errors.
+
+Official assignment date: December 15th
+
+Due date: Close of business December 19th (mid-night Friday)
+
+ 
+
+ 
+
+Grade scale:
+
+50%: Did you format it correctly?  I will take 5% off for every case of bad formatting that is left in the program on Friday at mid-night.
+
+ 
+
+50%: Does it still work.  If it does you get the full 50%, if not you get 0%.  This is hash but you would not buy a video game that didn’t work, your boss won’t pay you for code that doesn’t work, and I don’t give credit for programs that don’t work.  Remember it works now, just don’t break it. 
+
+ 
+
+Suggestion: Make small changes to the format then run (test) the program.  If it still works then continue to clean up the code, if not fix what you just broke.
+
+ 
+
+HELP, yes I will be glad to help you between now and Friday the 19th .  You can get help two ways:
+
+1.            Ask me in class or email me and we can setup a Skype call.
+
+2.            Put your question in a comment in the code and email me to let me know you added a question to the code.  You can also just email me a question but if you add a comment in the code I can reply with a comment in the code as well, either way is acceptable.
+
+ 
+
+FAQ:
+
+Q: Can I look at other peoples code?  
+
+A: Yes, everyone will be using GitHub and if you are clever you can even see when others check in their code.  Just don’t blatantly copy their code, this is a test.
+
+ 
+
+Q: Can we work together.
+
+A:  Yes, just please do your own work, but you can help others or get help from others.
+
+ 
+
+Q: Are you serious about the Friday deadline
+
+A: Yes, unless you make other arrangements I will do a “Git” at mid-night or shortly after that and grade what I find.  This your deadline, you can meet it, let me know why you need more time, or not meet the time limit. 
+
+ 
+
+Q: How much does this test count?
+
+A: 1,000 points or about ½ of your grade for the Fall.
+
+Q: Is the question "Mr. Hurst, does my code look 100% OK" a valid question.
+A: Wow, that's a great question, and yes you can ask that.  And I will be happy to answer it.  You can fix your code, ask me this quesion, and if I say it looks good you have a 100% on the test.
+
+Q: What is the most important question I can ask about this test?
+
+A: See the previous question.
+
+Q: Can I get a "pass" on two home work assignments next Spring by doing something really simple that only requires me to actully read the assignment in detail.
+
+A: Another great qustion and YES you can.  In your FormatTheCode folder create a file called 42.txt and put the phrase in it "This is " + state your name + " what was the question?" (obviously put your name where it says "state your name".  Save that file and check it in with your test work.  If I find the file in your folder you get two "passes" for homework in the spring.
+
+Q: How can I loose the two passes you just mentioned?
+
+A: Tell any of your class mates about this "free offer" and you will loose the "free passes"
+
+ 
+
+ 
+
+In Christ,
+
+ 
+
+ 
+
+Dennis W. Hurst
+
+Founder
+
+ 
+
+ 
+
+SaltWorks
+
+    
+
+{ Saltworks: "application security to support your business",
+
+  URL      : "SaltworksSecurity.com",
+
+  title    : "Founder",
+
+  location : "Woodstock, GA",
+
+  cell     : "(678)689-5035" }
+
+ 
