@@ -1,15 +1,19 @@
 //
 // This class is UGLY, fix it
 //
-var mySlider = {isSliderDown : false,SliderColor : "red"};
+var mySlider = {isSliderDown : false, SliderColor: "red"};
 
 
 //
 // This function is UGLY, fix it
 //
-var clickMe = function(){if (mySlider.isSliderDown)
-    {alert('the slider is down');}
-    else {alert('the slider is up');}}
+var clickMe = function(){
+    if (mySlider.isSliderDown)
+        {alert('the slider is down');
+    }
+    else {alert('the slider is up');
+    }
+}
 
 
 //
@@ -71,3 +75,5 @@ $(document).ready(function(){
 
 
 
+Jak === "happy"
+[true]
