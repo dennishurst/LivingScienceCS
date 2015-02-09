@@ -136,7 +136,7 @@
                 <td>1</td>
                 <td>Deitrich</td>
                 <td>Basduch</td>
-                <td>@mdo</td>
+                <td>@TvismyName</td>
               </tr>
               <tr>
                 <td>2</td>
@@ -155,4 +155,15 @@
         </div>
       </div>
 
-     
+<div class="page-header">
+        <h1>Actions</h1>
+      </div>
+     <p>
+        <button type="button" class="btn btn-lg btn-default">Blow up Parliment</button>
+        <button type="button" class="btn btn-lg btn-primary">Que 1812 Overture</button>
+        <button type="button" class="btn btn-lg btn-success">Manacial Laugh</button>
+        <button type="button" class="btn btn-lg btn-info">Governments</button>
+        <button type="button" class="btn btn-lg btn-warning">Warning</button>
+        <button type="button" class="btn btn-lg btn-danger"></button>
+        <button type="button" class="btn btn-lg btn-link"></button>
+      </p>
