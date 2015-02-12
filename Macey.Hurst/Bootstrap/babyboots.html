@@ -5,7 +5,7 @@
     <link type="text/css" rel="stylesheet" href="css\site_overrule.css"/>
 		<script src="jquery-1.11.2.js"></script>
 		<script src="bootstrap.js"></script>
-		<link rel="icon" href="http://favim.com/media/uploads/images/orig/140322/flowers-hipster-indie-transparent-Favim.com-1529343.jpg"/>
+		<link rel="icon" href="img\peaceFavicon.jpg"/>
 	</head>
 
 	<body>
@@ -32,14 +32,59 @@
 
         <div id="torso" class="container col-md-8">
 
-					   <img src="http://3.bp.blogspot.com/_cvgF74APy1A/TNO0yiBeBJI/AAAAAAAABYQ/qeW4kxMBPw0/s400/transylvania-bucegi+mountains.jpg" alt="Moutains of Middle Romania" class="col-md-offset-2 img-thumbnail">
+          <div id="inside torso" class="row">
+           <div class="col-md-8 col-md-offset-2 carousel slide" id="carouselOne">
+
+              <ol class="carousel-indicators">
+                <li data-target = "#carouselOne" data-slide-to = "0" class="active"></li>
+                <li data-target = "#carouselOne" data-slide-to = "1"></li>
+                <li data-target = "#carouselOne" data-slide-to = "2"></li>
+              </ol>
+
+           <div class= "carousel-inner">
+              <div class = "item active">
+              <img src="img\castleDracula.jpg" alt="Dracula's Castle"class="img-responsive"/>
+                <div class = "carousel-caption">
+                  <h3>The Castle Dracula</h3>
+                      <p> Situated in the immediate vacinity of Braşov, Romania. Said to be the castle that inspired Dracula's castle in Bran Stoker's Novel, "Dracula", despite the fact that the author never set foot in the Romania. </p>
+                </div>
+              </div>
+
+          <div class = "item">
+              <img src="img\retezatRom.jpg" alt="coconut-thing"class="img-responsive"/>
+              <div class = "carousel-caption">
+                <h3>Retezat Mountains, Romania</h3>
+                <p> Highest massifs in Romania. The highest peak is Pelega, featuring an altitude of 2509 meters. </p>
+              </div>
+          </div>
+
+          <div class = "item">
+              <img src="img\carpathianBrasov.jpg" alt="plumBrandy"class="img-responsive"/>
+              <div class = "carousel-caption">
+              <h3>Carpathian Mountains, Brasov</h3>
+              <p> The Carpathian Mountain range forms an ark roughly 930 miles across central and eastern Europe. They are the home to the largest European populations of brown bears, wolves, chamois and lynxes. (as well as a third of all European plant species) </p>
+              </div>
+          </div>
+
+
+          </div>
+          
+          <a class= "carousel-control left" href = "#carouselOne" data-slide = "prev">
+        <span class = "icon-prev"> </span>
+         </a>
+         <a class= "carousel-control right" href = "#carouselOne" data-slide = "next">
+          <span class = "icon-next"> </span>
+        </a>
+          <!--this is the end of CarouselOne -->
+      </div> 
+      </div>
 
             <p> The mountains of Tranylvania are a historical region in the central part of Romania. Bounded on the east and south by the Carpathian mountain range, historical Transylvania extended in the west to the Apuseni Mountains; however, the term sometimes encompasses not only Transylvania proper, but also the historical regions of Crișana, Maramureș, and Romanian part of Banat. The region of Transylvania is known for the scenic beauty of its Carpathian landscape and its rich history. In the English-speaking world it has been commonly associated with vampires,[1][2][3] chiefly due to the influence of Bram Stoker's famous novel Dracula as well as the many later film adaptations. </p>
 			  </div>
 
 		  	<div id="sidebar" class="container col-md-4">
           <h4 class="well-sm"> Some facts </h4>
-          <img src="http://4.bp.blogspot.com/-HxhQHPUOf24/TgcdR0c7zFI/AAAAAAAAAJ8/IqsQwa11TPo/s1600/romania-president.jpg" alt="President of Romania" class="pull-right img-thumbnail hidden-xs hidden-sm">
+          <img src="img\romPres.jpg" alt="President of Romania" class="pull-right img-thumbnail hidden-xs hidden-sm">
 				  <p> Romania is a unitary semi-presidential republic located in Southeastern Europe, north of the Balkan Peninsula and on the western shore of the Black Sea. It borders Hungary, Serbia, Ukraine, Moldova, and Bulgaria. It covers 238,391 square kilometres (92,043 sq mi) and has a temperate-continental climate. With its 20.1 million inhabitants, it is the seventh most populous member of the European Union. Its capital and largest city, Bucharest, is the sixth largest city in the European Union. </p>
 				    
 			 </div>
@@ -47,9 +92,57 @@
     </div>
 
     <div id="2" class="row">
-      <div class="container col-md-8">
+      <div class="col-md-6">
+      	<h4 class="well-sm text-success"> Romanian Cuisine </h4>
+
+      	<p> Romanian cuisine is a diverse blend of different dishes from several traditions with which it has come into contact, but it also maintains its own character. It has been greatly influenced by Ottoman cuisine, while it also includes influences from the cuisines of other neighbours, such as Germans, Serbs, Bulgarians, and Hungarians. </p>
+      	<p> Quite a few different types of dishes are sometimes included under a generic term; for example, the category ciorbă includes a wide range of soups with a characteristic sour taste. These may be meat and vegetable soups, tripe (ciorbă de burtă) and calf foot soups, or fish soups, all of which are soured by lemon juice, sauerkraut juice, vinegar, or traditionally borş. The category ţuică (plum brandy) is a generic name for a strong alcoholic spirit in Romania, while in other countries, every flavour has a different name. <p>
       </div>
+
+      <div class="col-md-6 carousel slide" id="myCarousel">
+
+      	<ol class="carousel-indicators">
+      		<li data-target = "#myCarousel" data-slide-to = "0" class="active"></li>
+      		<li data-target = "#myCarousel" data-slide-to = "1"></li>
+      		<li data-target = "#myCarousel" data-slide-to = "2"></li>
+      	</ol>
+
+      	<div class= "carousel-inner">
+      		<div class = "item active">
+      			<img src="img\romfood1.jpg" alt="MeatPot?"class="img-responsive"/>
+      			<div class = "carousel-caption">
+      				<h3>Meat pot</h3>
+      				<p> Possibly made of lamb food. I wonder if it's hard to get dirt out of lamb foot. </p>
+      			</div>
+      		</div>
+
+      		<div class = "item">
+      			<img src="img\romfood2.jpg" alt="coconut-thing"class="img-responsive"/>
+      			<div class = "carousel-caption">
+      				<h3>Coconut Thing</h3>
+      				<p> Not sure what this is, but I would never eat it. </p>
+      			</div>
+      		</div>
+
+      		<div class = "item">
+      			<img src="img\romfood3.jpg" alt="plumBrandy"class="img-responsive"/>
+      			<div class = "carousel-caption">
+      				<h3>Plum Brandy</h3>
+      				<p> Also called ţuică </p>
+      			</div>
+      		</div>
+
+
+      </div>
+      <a class= "carousel-control left" href = "#myCarousel" data-slide = "prev">
+      	<span class = "icon-prev"> </span>
+      </a>
+      <a class= "carousel-control right" href = "#myCarousel" data-slide = "next">
+      	<span class = "icon-next"> </span>
+      </a>
+
     </div>
+    
 			<div id="footer" class="row">
 				<p class="text-muted"> Copyright myself 2015 </p>
 			</div>
