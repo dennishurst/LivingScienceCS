@@ -6,20 +6,22 @@
 	<link rel="icon" href="img\serviceWeb\BugsBunny.jpg"/>
 	<script src="jquery-1.11.2.js"></script>
 		<script src="bootstrap.js"></script>
+
+
     <script type="text/javascript">
         function fxUpdateRows() {
             var oLines = [
-                {"actor": "Glados", "line": "It's been a long time."},
-                {"actor": "Someone", "line": "Apeture Science, we do what we must, because we can."}
+                {"actor": "Glados", "line": "Its been a long time."},
+                {"actor": "Someone", "line": "Apeture Science. We do what we must, because, we can."}
             ];
             var sT = "";
             for (var i=0; i < oLines.length; i++)
             {
-            sT += "<tr><td>" + oLines[i].actor + "</td><td>" + oLines[i].line + "</td></tr>";
+                sT += "<tr><td>" + oLines[i].actor + "</td><td>" + oLines[i].line + "</td></tr>";
             }
             $("#idLines").html(sT);
         }
-    </script>
+</script>
 </head>
 
 <body>
@@ -35,24 +37,26 @@
 				</div>
 				<div class="panel-body">
 					<div class="list-group">
-
-						<a href="#" class="list-group-item active">
-						In this list
-						</a>
-						<a href="#" class="list-group-item">
-						You would have
-						</a>
-						<a href="#" class="list-group-item">
-						Songs or scenes
-						</a>
-						<a href="#" class="list-group-item">
-						Unless you didn't
-						</a>
-						<a href="#" class="list-group-item">
-						In which case this program would be redundant.
-						</a>
-					</div>
+						<ul class="nav nav-tabs">
+						<li class="active"><a href="#serviceScenes" data-toggle="tab">Scenes</a></li>
+						<li class=""><a href="#serviceCast" data-toggle="tab">Cast</a></li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+						<div class="tab-pane fade active in" id="serviceScenes">
+    						<a href="#" class="list-group-item">Scene 42</a>
+    						<a href="#" class="list-group-item">Lying Cake</a>
+    						<a href="#" class="list-group-item">not-a-scene</a>
+    						<a href="#" class="list-group-item">Drunken Sailors</a>
+    					</div>
+    					<div class="tab-pane fade" id="serviceCast">
+    						<a href="#" class="list-group-item">Chell</a>
+    						<a href="#" class="list-group-item">Glados</a>
+    						<a href="#" class="list-group-item">Sir Robin</a>
+    						<a href="#" class="list-group-item">The coconut</a>
+    					</div>
+    				</div>
 				</div>
+			</div>
 			</div>
 			<div id="nextServiceTab" class="panel panel-purple">
 				<div class="panel-heading">
@@ -238,9 +242,9 @@
 										<label for="select1" class="control-label"> </label>
 											<select class="form-control" id="select1">
 												<option>Master</option>
-												<option>Back</option>
+												<option>Backstage</option>
 												<option>Band</option>
-												<option>Crown</option>
+												<option>Audience</option>
 											</select>
 									</div>
 								</td>
@@ -252,9 +256,9 @@
 										<label for="select2" class="control-label"> </label>
 											<select class="form-control" id="select2">
 												<option>Master</option>
-												<option>Back</option>
+												<option>Backstage</option>
 												<option>Band</option>
-												<option>Crowd</option>
+												<option>Audience</option>
 											</select>
 									</div>
 								</td>
@@ -266,9 +270,9 @@
 										<label for="select3" class="control-label"> </label>
 											<select class="form-control" id="select3">
 												<option>Master</option>
-												<option>Back</option>
+												<option>Backstage</option>
 												<option>Band</option>
-												<option>Crowd</option>
+												<option>Audience</option>
 											</select>
 									</div>
 								</td>
@@ -280,9 +284,9 @@
 										<label for="select3" class="control-label"> </label>
 											<select class="form-control" id="select3">
 												<option>Master</option>
-												<option>Back</option>
+												<option>Backstage</option>
 												<option>Band</option>
-												<option>Crowd</option>
+												<option>Audience</option>
 											</select>
 									</div>
 								</td>
@@ -323,6 +327,10 @@
 
 <!-- below is the end of the page container -->
 	</div>
+
+
+
+
 
 </body>
 </html>
