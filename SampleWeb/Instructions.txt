@@ -41,3 +41,22 @@ Homework:
    http://127.0.0.1:8080/homework/<fileName> by serving the file name 
 
 3) (!!Important!!!) Check your work into a NEW brance called "<yourname> WS Test"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
