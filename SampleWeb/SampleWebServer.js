@@ -3,7 +3,7 @@ var url = require('url');
 var app = express(); 
 app.listen(8080); 
 
-app.get('/testdir', function (req, res) {
+app.get('/testdir/*', function (req, res) {
     console.log('howdy');
     res.sendFile('image1.jpg',  
         {maxAge: 1,    // 24* 60* 60* 1000, 
@@ -61,7 +61,7 @@ app.get('/images/*', function (req, res) {
 
 
 
-
+//http://127.0.0.1:8080/lines/123/role/ShowMeSomething
 app.get('/lines/:action/role/:myrole', function (req, res) {
     var myAction = req.params.action
       , myRole = req.params.myrole;
@@ -71,7 +71,7 @@ app.get('/lines/:action/role/:myrole', function (req, res) {
 });
 
 
-
+console.log("Hello class");
 
 
 
