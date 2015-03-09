@@ -5,30 +5,13 @@
 	<link type="text/css" rel="stylesheet" href="css\overpower.css"/>
 	<link rel="icon" href="img\serviceWeb\BugsBunny.jpg"/>
 	<script src="jquery-1.11.2.js"></script>
-	<script src="bootstrap.js"></script>
-	<script type="text/javascript">
-		function fxUpdateRows() 
-		{
-			var oLines = 
-			[
-				{"actor": "Glados", "line": "It's been a long time"},
-				{"actor": "V1", "line": "This was a triumph, I'm making a note here: huge success. It's hard to overstate my satisfaction."}
-			];
-		var sT = "";
-		for (var i=0; i < oLines.length, i++)
-			{
-				st += "<tr><td>" + oLines[i].actor + "</td><td>" + oLines[i].line + "</td><tr>");
-			}
-		$("idLines").html(sT);
-		}
-		</script>
-
+		<script src="bootstrap.js"></script>
 </head>
 
 <body>
 	<div id="page" class="container">
 		<div class="alert alert-dismissible alert-warning">
-			<button type="button" class="close" data-dismiss="alert">x</button>
+			<button type="button" class="close" data-dismiss="alert">×</button>
 			<strong>Someone signed in!</strong> It looks like <strong>Mr. Bigglesworth</strong> has just signed on as a <em>Backstage</em> viewer.
 		</div>
 		<div id="serviceLeft" class="col-md-3">
@@ -38,24 +21,26 @@
 				</div>
 				<div class="panel-body">
 					<div class="list-group">
-
-						<a href="#" class="list-group-item active">
-						In this list
-						</a>
-						<a href="#" class="list-group-item">
-						You would have
-						</a>
-						<a href="#" class="list-group-item">
-						Songs or scenes
-						</a>
-						<a href="#" class="list-group-item">
-						Unless you didn't
-						</a>
-						<a href="#" class="list-group-item">
-						In which case this program would be redundant.
-						</a>
-					</div>
+						<ul class="nav nav-tabs">
+						<li class="active"><a href="#serviceScenes" data-toggle="tab">Scenes</a></li>
+						<li class=""><a href="#serviceCast" data-toggle="tab">Cast</a></li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+						<div class="tab-pane fade active in" id="serviceScenes">
+    						<a href="#" class="list-group-item">Scene 42</a>
+    						<a href="#" class="list-group-item">Lying Cake</a>
+    						<a href="#" class="list-group-item">not-a-scene</a>
+    						<a href="#" class="list-group-item">Drunken Sailors</a>
+    					</div>
+    					<div class="tab-pane fade" id="serviceCast">
+    						<a href="#" class="list-group-item">Chell</a>
+    						<a href="#" class="list-group-item">Glados</a>
+    						<a href="#" class="list-group-item">Sir Robin</a>
+    						<a href="#" class="list-group-item">The coconut</a>
+    					</div>
+    				</div>
 				</div>
+			</div>
 			</div>
 			<div id="nextServiceTab" class="panel panel-purple">
 				<div class="panel-heading">
@@ -136,7 +121,7 @@
 					<ul class="pager">
 						<li><a href="#">Previous Song</a></li>
 						<li><a href="#">Previous Verse</a></li>
-						<li><a href="#" onclick="fxUpdateRows(); return false;">Next Verse</a></li>
+						<li><a href="#">Next Verse</a></li>
 						<li><a href="#">Next Song</a></li>
 					</ul>
 
@@ -147,7 +132,7 @@
 								<th>Line</th>
 							</tr>
 						</thead>
-						<tbody id="idLines">
+						<tbody>
 							<tr>
 								<td>Glados</td>
 								<td>It's been a long time </td>
@@ -241,9 +226,9 @@
 										<label for="select1" class="control-label"> </label>
 											<select class="form-control" id="select1">
 												<option>Master</option>
-												<option>Back</option>
+												<option>Backstage</option>
 												<option>Band</option>
-												<option>Crown</option>
+												<option>Audience</option>
 											</select>
 									</div>
 								</td>
@@ -255,9 +240,9 @@
 										<label for="select2" class="control-label"> </label>
 											<select class="form-control" id="select2">
 												<option>Master</option>
-												<option>Back</option>
+												<option>Backstage</option>
 												<option>Band</option>
-												<option>Crowd</option>
+												<option>Audience</option>
 											</select>
 									</div>
 								</td>
@@ -269,23 +254,23 @@
 										<label for="select3" class="control-label"> </label>
 											<select class="form-control" id="select3">
 												<option>Master</option>
-												<option>Back</option>
+												<option>Backstage</option>
 												<option>Band</option>
-												<option>Crowd</option>
+												<option>Audience</option>
 											</select>
 									</div>
 								</td>
 							</tr>
 							<tr>
-								<td>Goldmember</td>
+								<td>Number 2</td>
 								<td>
 									<div class="form-group">
 										<label for="select3" class="control-label"> </label>
 											<select class="form-control" id="select3">
 												<option>Master</option>
-												<option>Back</option>
+												<option>Backstage</option>
 												<option>Band</option>
-												<option>Crowd</option>
+												<option>Audience</option>
 											</select>
 									</div>
 								</td>
@@ -308,13 +293,13 @@
 
 
 
-	
-		</div><!-- This is the end of the screenEdit box -->
+	<!-- This is the end of the screenEdit box -->
+		</div>
 
 
 
 		<div class="progress col-md-12">
-			<div class="progress-bar" style="width: 78%"></div>
+			<div class="progress-bar" style="width: 67%"></div>
 		</div>
 
 
@@ -324,8 +309,8 @@
 
 
 
-
-	</div><!-- this is the end of the page container -->
+<!-- below is the end of the page container -->
+	</div>
 
 </body>
 </html>
