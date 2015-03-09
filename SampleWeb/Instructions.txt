@@ -31,3 +31,13 @@ http://127.0.0.1:8080/testdir/
 
 
 http://127.0.0.1:8080/lines/123/role/ShowMeSomething
+
+Homework: 
+1) Modify the web server to respond to the following request:
+    http://127.0.0.1:8080/homework/
+	*This should serve a page index.html that you create in your "homework" folder
+
+2)it should respond to the following request 
+   http://127.0.0.1:8080/homework/<fileName> by serving the file name 
+
+3) (!!Important!!!) Check your work into a NEW brance called "<yourname> WS Test"
