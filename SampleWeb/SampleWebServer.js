@@ -59,7 +59,29 @@ app.get('/images/*', function (req, res) {
         });
 });
 
+app.get('/homework/*', function (req, res) {
+    var sFile = req.originalUrl;
+    sFile = sFile.substring(10, sFile.length);
 
+        if (sFile.length === 0){
+            sFile = "index.html";
+        }
+
+    res.sendFile(sFile,
+        {
+            maxAge: 1,    // 24* 60* 60* 1000, 
+            root: './homework/'
+        },
+        function (err) {
+            if (err) {
+                console.log(" Error");
+                res.status(err.status).end();
+            }
+            else {
+                console.log(" Success");
+            }
+        });
+});
 
 //http://127.0.0.1:8080/lines/123/role/ShowMeSomething
 app.get('/lines/:action/role/:myrole', function (req, res) {
